@@ -1,0 +1,32 @@
+Virtualization is a concept quite different than what cloud computing is rather it is a subset of what cloud computing is.
+
+it basically separates the operating system from the underlying hardware with the help of a hypervisor 
+
+hypervisoror a virtual machine monitor 
+"A hypervisor or virtual machine monitor (VMM) is computer software, firmware or hardware that creates and 
+runs virtual machines. A computer on 
+which a hypervisor runs one or more virtual machines is called a host machine, and each virtual machine is called a guest machine."
+
+type1 - a computer with hypervisor installed then os(bare metal)
+type2 - a computer with some os installed hyper visor is installed onto then other os can be installed on this hypervisor installed in the
+native os.
+
+
+in type hypervisor is installed onto the hardware and its gui shows computer info processor ram etc we need management console
+management software manages the os and the servers on/off
+overallocation-
+giving more ram to os than available
+hypervisor does the entire virtual ram allocation
+windows,xen(linux)
+vmware citrix chaqrge for management software
+ 
+
+type 2 hypervisor
+computer with os installed 
+hypervisor is installed on this os
+management softw is not need in such a situation
+virtualbox,vmware
+resouce alloctaion must be done wisely because the machine even not working would take up the ram allocated to it
+
+
+
